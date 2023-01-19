@@ -1,3 +1,5 @@
+// signup function
+
 let formel=document.querySelector("form");
 let signup_data = JSON.parse(localStorage.getItem("signupData"))
 if (signup_data === null) {
@@ -28,6 +30,7 @@ formel.addEventListener("submit", (e)=>{
 
 alert("Account Created Successfully");
 window.location.href = "./index.html"
+            document.getElementById("userName").innerText=signup_data[i].name;
 })
 // localStorage.clear()
 

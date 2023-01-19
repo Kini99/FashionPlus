@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="tooltip">Fashion Plus - Affordable Plus Size Clothing & Fashion for Women | Fashion Plus </title>
+    <title class="tooltip">Fashion Plus - Tops & Sweaters | Fashion Plus </title>
     <link rel="icon" href="Images/Fashion+_circle_final-removebg-preview.png" type="image/icon type">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./index.css">
+    <link rel="stylesheet" href="./tops.css">
     
 </head>
 <body>
@@ -63,7 +63,7 @@
        
         <!-- <form> -->
             <!-- <div>Input search and icon</div> -->
-           <input type="text" placeholder="Keyword or catalog item#">
+           <input type="text" placeholder="Keyword or catalog item#" id="search">
            <img src="Images/Search Icon.png" alt="" id="search_icon">
         <!-- </form> -->
         <div>
@@ -75,10 +75,10 @@
     </div>
     </div>
 
-    <!-- content -->
+   <!-- categories -->
     <div class="categories">
-<p onclick="soon()">FEATURED</p>
-<p onclick="tops()">TOPS & SWEATERS</p>
+<p>FEATURED</p>
+<p>TOPS & SWEATERS</p>
 <p>BOTTOMS</p>
 <p>DRESSES</p>
 <p>ACTIVE</p>
@@ -90,27 +90,61 @@
 <p>HOME</p>
 <p style="color:red">CLEARANCE</p>
     </div>
-
+<!-- discount line -->
     <div style="display:flex;width:75%;margin: auto;justify-content: space-around;margin-top: 20px;">
         <img src="Images/Fashion+_circle_final-removebg-preview.png" alt="" style="height:50px">
         <p style="font-size:20px;text-align: center;margin-top: 10px;">  Save $20 on your first purchase of $25+ when you open and use a <span style="color:#3a2a7c;font-weight:bolder"> Fashion+</span> Platinum Credit Card!1,* <a href="">Apply Now</a> / <a href="">Learn More</a></p></div>
-        
-        <div class="ad1">
-            <div>
-                <h1>THE NEW</h1>
-                <h1 style="font-family:'Indie Flower', cursive;">You Need Now!</h1>
-                <h2>Visit fashionplus.com and shop our monthly catalog - CATHERINES</h2>
-                <button>JOIN OUR MAILING LIST</button>
-            </div>
-            <img src="Images/Landing Page Images/1 ca-1227-catalog.png" alt="">
-        </div>
 
-        <div class="trending">
-            <h2>Trending This Week</h2>
-            <!-- trending products list -->
-            <div id="trending_products">
-               
-            </div>
+         <!-- content -->
+<div class="content_top">
+    <div>
+        <h1>Plus Size Tops & Sweaters</h1>
+    <p>766 Items</p>
+</div>
+<div class="functions">
+    <select id="sort">
+    <option value="">SORT BY</option>
+    <option value="topRated">Top Rated</option>
+    <option value="highestPrice">Highest Price</option>
+    <option value="lowestPrice">Lowest Price</option>
+</select>
+<select name="Brand" id="brand">
+    <option value="">FILTER BY BRAND</option>
+    <option value="ellos">Ellos</option>
+    <option value="roamans">Roaman's</option>
+    <option value="jessica">Jessica London</option>
+    <option value="london">The London Collection</option>
+</select>
+<select name="Price" id="price">
+    <option value="">FILTER BY PRICE</option>
+    <option value="high">3000+</option>
+    <option value="medium">1500 - 2999</option>
+    <option value="low">0-1499</option>
+</select>
+</div>
+</div>
+        <div class="content">
+<div class="sidebar">
+<h2>CATEGORY</h2>
+<p>Suprema & Perfect Price</p>
+<p>Tunics</p>
+<p>Tees</p>
+<p>Casual Shirts</p>
+<p>Blouses</p>
+<p>Cardigans</p>
+<p>Sweaters</p>
+<p>Tank Tops</p>
+<p>Kimonos & Shrugs</p>
+<p>Jackets</p>
+<p>Hoodies & Sweatshirts</p>
+<p>Active Tops</p>
+<p>Petites</p>
+<p>Curvy Tops</p>
+<p>Liz & Me Tops</p>
+</div>
+<div id="products">
+<!-- products data here -->
+</div>
         </div>
 
         <!-- footer -->
@@ -210,3 +244,4 @@
 </body>
 </html>
 <script src="index.js"></script>
+<script src="./tops.js"></script>
