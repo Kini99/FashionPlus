@@ -16,7 +16,7 @@ padding:10px;
   from {opacity: .4}
   to {opacity: 1}
 }
-        .brand_logos{
+.brand_logos{
     display: flex;
     justify-content: space-between;
     justify-content: space-around;

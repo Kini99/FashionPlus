@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fashion+ - Admin Dashboard</title>
+    <link rel="icon" href="Images/Fashion+_circle_final-removebg-preview.png" type="image/icon type">
+    <link rel="stylesheet" href="./admin.css">
+</head>
+<body>
+  <nav>
+    <div>
+    <img src="Images/Brand Logos/Final FASHION+_Purple-removebg-preview.png"alt="" style="cursor:pointer">
+</div>
+<div class="nav_options">
+    <button>Product Details</button>
+    <button onclick="soon()">Orders Received</button>
+    <button onclick="soon()">Orders Pending</button>
+    <button onclick="soon()">Orders Completed</button>
+    <button onclick="soon()">Overview</button>
+</div>
+  </nav> 
+  <h1>PRODUCT DETAILS</h1> 
+  <div class="functions">
+    <select id="sort">
+    <option value="sortBy">SORT BY</option>
+    <option value="topRated">Top Rated</option>
+    <option value="highestPrice">Highest Price</option>
+    <option value="lowestPrice">Lowest Price</option>
+</select>
+<select name="Brand" id="brand">
+    <option value="">FILTER BY BRAND</option>
+    <option value="ellos">Ellos</option>
+    <option value="roamans">Roaman's</option>
+    <option value="jessica">Jessica London</option>
+    <option value="london">The London Collection</option>
+</select>
+<select name="Price" id="price">
+    <option value="">FILTER BY PRICE</option>
+    <option value="high">3000+</option>
+    <option value="medium">1500 - 2999</option>
+    <option value="low">0-1499</option>
+</select>
+</div>
+  <table>
+    <thead>
+        <tr>
+            <td>ID</td>
+            <td>PRODUCT NAME</td>
+            <td>BRAND NAME</td>
+            <td>DESCRIPTION</td>
+            <td>TAG</td>
+            <td>PRICE</td>
+            <td>RATING</td>
+            <td>REMOVE PRODUCT</td>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- appending all products data here -->
+    </tbody>
+  </table>
+</body>
+</html>
