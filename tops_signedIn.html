@@ -61,11 +61,11 @@
         <img src="Images/Hamburger.png" alt="" id="hamburger" style="height:25px;">
         <img src="Images/Brand Logos/Final FASHION+_Purple-removebg-preview.png"alt="" style="cursor:pointer" onclick="home()">
        
-        <!-- <form> -->
+        <form id="search">
             <!-- <div>Input search and icon</div> -->
-           <input type="text" placeholder="Keyword or catalog item#">
-           <img src="Images/Search Icon.png" alt="" id="search_icon">
-        <!-- </form> -->
+           <input type="search" placeholder="Keyword or catalog item#" name="search">
+           <input type="submit">
+        </form>
         <div>
             <h3>WELCOME <span id="userName"></span>
             </h3>
@@ -101,23 +101,25 @@
 </div>
 <div class="functions">
     <select id="sort">
-    <option value="sortBy">SORT BY</option>
+    <option value="">SORT BY</option>
     <option value="topRated">Top Rated</option>
     <option value="highestPrice">Highest Price</option>
     <option value="lowestPrice">Lowest Price</option>
 </select>
 <select name="Brand" id="brand">
     <option value="">FILTER BY BRAND</option>
-    <option value="ellos">Ellos</option>
-    <option value="roamans">Roaman's</option>
-    <option value="jessica">Jessica London</option>
-    <option value="london">The London Collection</option>
+    <option value="Ellos">Ellos</option>
+    <option value="Roaman's">Roaman's</option>
+    <option value="Jessica London">Jessica London</option>
+    <option value="The London Collection">The London Collection</option>
 </select>
 <select name="Price" id="price">
     <option value="">FILTER BY PRICE</option>
     <option value="high">3000+</option>
     <option value="medium">1500 - 2999</option>
     <option value="low">0-1499</option>
+    <option value="limited">Limited Time Price</option>
+    <option value="perfect">Perfect Price</option>
 </select>
 </div>
 </div>
@@ -242,8 +244,3 @@
 </body>
 </html>
 <script src="./tops.js"></script>
-<script src="index.js"></script>
-<script src="
-signin.js"></script>
-<script src="
-signup.js"></script>

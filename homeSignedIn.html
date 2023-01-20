@@ -4,9 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fashion Plus - Sign Up</title>
+    <title class="tooltip">Fashion Plus - Affordable Plus Size Clothing & Fashion for Women | Fashion Plus </title>
     <link rel="icon" href="Images/Fashion+_circle_final-removebg-preview.png" type="image/icon type">
-<link rel="stylesheet" href="./signup.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./index.css">
+    
 </head>
 <body>
     <!-- header -->
@@ -51,28 +55,64 @@
 </div>
 <button style="border:none; font-size:20px;background-color: #bebebe;">IND</button>
         </div>
+    
+    <!-- nav line -->
+    <div class="nav">
+        <img src="Images/Hamburger.png" alt="" id="hamburger" style="height:25px;">
+        <img src="Images/Brand Logos/Final FASHION+_Purple-removebg-preview.png"alt="" style="cursor:pointer" onclick="home()">
+       
+        <!-- <form> -->
+            <!-- <div>Input search and icon</div> -->
+           <input type="text" placeholder="Keyword or catalog item#">
+           <img src="Images/Search Icon.png" alt="" id="search_icon">
+        <!-- </form> -->
+        <div>
+        <h3>WELCOME <span id="userName"></span>
+        </h3>
+        <button><img src="Images/icon-bag-filled.png" alt="error">MY BAG</button>
+    </div>
+    </div>
 
     <!-- content -->
-    <div class="container">
-        <div class="logo_div"><img src="Images/Untitled design.png"alt="" style="cursor:pointer" onclick="home()">
-        </div>
-        <div class="form_div">
-<h1> <pre style="
-    font-family:Georgia, 'Times New Roman', Times, serif;">CREATE  YOUR  ACCOUNT</pre> </h1>
-<form>
-    <input type="text" placeholder="Username" id="username" required>
-    <span id="name_err"></span>
-    <input type="email" placeholder="Email ID" id="email" required>
-    <span id="email_err"></span>
-    <input type="password" placeholder="Password" id="pass" required>
-    <input type="submit">
-</form>
-        </div>
+    <div class="categories">
+<p>FEATURED</p>
+<p onclick="topsSignedInPage()">TOPS & SWEATERS</p>
+<p>BOTTOMS</p>
+<p>DRESSES</p>
+<p>ACTIVE</p>
+<p>COATS & JACKETS</p>
+<p>SLEEPWEAR</p>
+<p>BRAS & INTIMATES</p>
+<p>SHOES & ACCESSORIES</p>
+<p>SWIMWEAR</p>
+<p>HOME</p>
+<p style="color:red">CLEARANCE</p>
+    </div>
+
+    <div style="display:flex;width:75%;margin: auto;justify-content: space-around;margin-top: 20px;">
+        <img src="Images/Fashion+_circle_final-removebg-preview.png" alt="" style="height:50px">
+        <p style="font-size:20px;text-align: center;margin-top: 10px;">  Save $20 on your first purchase of $25+ when you open and use a <span style="color:#3a2a7c;font-weight:bolder"> Fashion+</span> Platinum Credit Card!1,* <a href="">Apply Now</a> / <a href="">Learn More</a></p></div>
+        
+        <div class="ad1">
+            <div>
+                <h1>THE NEW</h1>
+                <h1 style="font-family:'Indie Flower', cursive;">You Need Now!</h1>
+                <h2>Visit fashionplus.com and shop our monthly catalog - CATHERINES</h2>
+                <button>JOIN OUR MAILING LIST</button>
+            </div>
+            <img src="Images/Landing Page Images/1 ca-1227-catalog.png" alt="">
         </div>
 
+        <div class="trending">
+            <h2>Trending This Week</h2>
+            <!-- trending products list -->
+            <div id="trending_products">
+               
+            </div>
+        </div>
 
         <!-- footer -->
-        <hr>
+<hr>
 <div style="display:flex;width:20%;margin:auto;justify-content: space-between;height:20px;margin-top: 40px;">
 <img src="Images/Landing Page Images/footer 1 icon-instagram.svg" alt="">
 <img src="Images/Landing Page Images/footer 2 icon-pinterest.svg" alt="">
@@ -164,7 +204,7 @@
 <p>California Transparency in Supply Chains Act</p>
 <p style="border-right:none">Accessibility Statement</p>
 </div>
-
+    
 </body>
 </html>
-<script src="./signup.js"></script>
+<script src="index.js"></script>

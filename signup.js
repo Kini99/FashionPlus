@@ -1,5 +1,5 @@
 // signup function
-
+let success=false;
 let formel=document.querySelector("form");
 let signup_data = JSON.parse(localStorage.getItem("signupData"))
 if (signup_data === null) {
@@ -27,16 +27,26 @@ formel.addEventListener("submit", (e)=>{
     signup_data.push(signup);
     localStorage.setItem("signupData", JSON.stringify(signup_data));
 // }
+success=true;
 
 alert("Account Created Successfully");
-window.location.href = "./index.html"
-            document.getElementById("userName").innerText=signup_data[i].name;
+if(success==true){
+// window.location.href = "./homeSignedIn.html"
+home_signedIn()
+document.getElementById("userName").innerText=signup_data[i].name;}
+else{
+alert("Account could not be Created");
+}
 })
 // localStorage.clear()
 
 
 function home(){
     window.location = '/'
+}
+
+function home_signedIn(){
+  window.location = "./homeSignedIn.html"
 }
 
 // slideshow header

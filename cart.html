@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title class="tooltip">Fashion Plus - Tops & Sweaters | Fashion Plus </title>
+    <title class="tooltip">Fashion Plus - Cart | Fashion Plus </title>
     <link rel="icon" href="Images/Fashion+_circle_final-removebg-preview.png" type="image/icon type">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Indie+Flower&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./tops.css">
+    <link rel="stylesheet" href="./cart.css">
     
 </head>
 <body>
@@ -67,7 +67,7 @@
            <img src="Images/Search Icon.png" alt="" id="search_icon">
         <!-- </form> -->
         <div>
-            <h3>WELCOME <span id="userName"></span>
+            <h3>WELCOME <span class="userName"></span>
             </h3>
         <button><img src="Images/icon-bag-filled.png" alt="error">MY BAG</button>
     </div>
@@ -94,14 +94,45 @@
         <p style="font-size:20px;text-align: center;margin-top: 10px;">  Save $20 on your first purchase of $25+ when you open and use a <span style="color:#3a2a7c;font-weight:bolder"> Fashion+</span> Platinum Credit Card!1,* <a href="">Apply Now</a> / <a href="">Learn More</a></p></div>
 
          <!-- content -->
-    <div class="content_page">    
+    <div class="content_page">  
+        <div class="sidebar_profile">
+<h2>Hello, <span class="userName"></span> </h2>
+<p>Your Orders</p>
+<p>Your Wishlist</p>
+<p>Your Account</p>
+        </div>  
 <div id="cart_products">
 <!-- cart_products data here -->
 </div>
 <div class="bill">
 <!-- bill details here -->
+<h2>CART TOTAL</h2>
+<table>
+    <thead>
+        <tr>
+            <td>PRODUCT</td>
+            <td>QUANTITY</td>
+            <td>PRICE</td>
+            <td>TOTAL</td>
+        </tr>
+    </thead>
+    <tbody>
+        <!-- append cart data here -->
+    </tbody>
+    <h3>Total Payable: <span id="totalCost"></span> </h3>
+</table>
 </div>
 </div>
+
+<div>
+    <input type="text" placeholder="Delivery Address">
+    <h3>Payment Mode</h3>
+    <option value="upi">UPI</option>
+    <option value="card">Card</option>
+    <option value="cod">Cash on Delivery</option>
+</div>
+
+<button>PLACE ORDER</button>
 
         <!-- footer -->
 <hr>
