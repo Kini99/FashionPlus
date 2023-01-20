@@ -9,10 +9,8 @@
         "rating":4,
         "desc":"Textured open front waffle cardigan with ribbed placket and ribbed knit long raglan sleeves.",
         "fabric":"100% acrylic twist knit",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Length: Mid-thigh
-        32inch, center back"
+        "details":"Machine wash cold,Imported",
+        "measurements":"Length: Mid-thigh 32inch, center back"
     },
     {
         "id":2,
@@ -24,13 +22,12 @@
         "rating":4,
         "desc":"Keep this soft, lightweight blouse in the front of your closet. With its soft georgette fabric and flowy shape, its an effortless way start to your day.",
         "fabric":"Soft and smooth as can be, this medium-weight opaque georgette fabric is designed to float away from the body. Sleek, supple and cool to the touch.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":3,
-        "name":"Suprema Tank",
+        "name":"Suprema Sleeveless Tank",
         "brand":"Ellos",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_Catherines/default/dwefd20f6d/images/hi-res/2607_33779_mc_7772.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Perfect Price!",
@@ -38,9 +35,8 @@
         "rating":5,
         "desc":"Our Suprema® layering tank is the perfect piece to add effortless beauty to any outfit.",
         "fabric":" Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":4,
@@ -52,27 +48,25 @@
         "rating":5,
         "desc":"The subtle shadowy stripes and bold hue of this open-front cardigan make it an effortlessly beautiful top layer for a little extra warmth on breezy days.",
         "fabric":"Light and airy sweater knit with a unique textured stripe pattern.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
     },
     {
         "id":5,
         "name":"Suprema Cami With Lace",
-        "brand":"ellos",
+        "brand":"Ellos",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_Catherines/default/dwa90e2f01/images/hi-res/2607_33749_mc_7654.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Perfect Price!",
         "price":595,
         "rating":4,
         "desc":"The perfect start to your layered look! Our Suprema® cami offers an essential foundation to any outfit and this one features feminine lace trim at the neckline.",
         "fabric":"Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
     },
     {
         "id":6,
-        "name":"Teardrop Tee",
+        "name":"Teardrop Mid-sleeve Tee",
         "brand":"Ellos",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_Catherines/default/dwece44258/images/hi-res/2607_33735_mc_7628.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Limited Time Price!",
@@ -80,14 +74,12 @@
         "rating":3,
         "desc":"Textured open front waffle cardigan with ribbed placket and ribbed knit long raglan sleeves.",
         "fabric":"100% acrylic twist knit",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Length: Mid-thigh
-        32inch, center back"
+        "details":"Machine wash cold, Imported",
+        "measurements":"Length: Mid-thigh 32inch, center back"
     },
     {
         "id":7,
-        "name":"Metallic Slinky Tunic",
+        "name":"Metallic Slinky Pattern Tunic",
         "brand":"Jessica London",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_Catherines/default/dw4a86fbe6/images/hi-res/2641_41109_mc_6546.jpg?sw=556&sh=680&sm=fit&yocs=j_m_",
         "tag":"Perfect Price!",
@@ -95,9 +87,8 @@
         "rating":4,
         "desc":"Keep this soft, lightweight blouse in the front of your closet. With its soft georgette fabric and flowy shape, its an effortless way start to your day.",
         "fabric":"Soft and smooth as can be, this medium-weight opaque georgette fabric is designed to float away from the body. Sleek, supple and cool to the touch.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":8,
@@ -109,9 +100,8 @@
         "rating":5,
         "desc":"Our Suprema® layering tank is the perfect piece to add effortless beauty to any outfit.",
         "fabric":" Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":9,
@@ -123,9 +113,8 @@
         "rating":5,
         "desc":"The subtle shadowy stripes and bold hue of this open-front cardigan make it an effortlessly beautiful top layer for a little extra warmth on breezy days.",
         "fabric":"Light and airy sweater knit with a unique textured stripe pattern.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
     },
     {
         "id":10,
@@ -137,9 +126,8 @@
         "rating":4,
         "desc":"The perfect start to your layered look! Our Suprema® cami offers an essential foundation to any outfit and this one features feminine lace trim at the neckline.",
         "fabric":"Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
     },
     {
         "id":11,
@@ -151,14 +139,12 @@
         "rating":4,
         "desc":"Textured open front waffle cardigan with ribbed placket and ribbed knit long raglan sleeves.",
         "fabric":"100% acrylic twist knit",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Length: Mid-thigh
-        32inch, center back"
+        "details":"Machine wash cold, Imported",
+        "measurements":"Length: Mid-thigh 32inch, center back"
     },
     {
         "id":12,
-        "name":"Plaid Flannel Shirt",
+        "name":"Chic Plaid Flannel Shirt",
         "brand":"Jessica London",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_ellos/default/dw0de552b7/images/hi-res/2530_37487_mc_4339.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Perfect Price!",
@@ -166,9 +152,8 @@
         "rating":5,
         "desc":"Keep this soft, lightweight blouse in the front of your closet. With its soft georgette fabric and flowy shape, its an effortless way start to your day.",
         "fabric":"Soft and smooth as can be, this medium-weight opaque georgette fabric is designed to float away from the body. Sleek, supple and cool to the touch.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":13,
@@ -180,9 +165,8 @@
         "rating":3,
         "desc":"Our Suprema® layering tank is the perfect piece to add effortless beauty to any outfit.",
         "fabric":" Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":14,
@@ -194,9 +178,8 @@
         "rating":4,
         "desc":"The subtle shadowy stripes and bold hue of this open-front cardigan make it an effortlessly beautiful top layer for a little extra warmth on breezy days.",
         "fabric":"Light and airy sweater knit with a unique textured stripe pattern.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
     },
     {
         "id":15,
@@ -208,28 +191,25 @@
         "rating":5,
         "desc":"The perfect start to your layered look! Our Suprema® cami offers an essential foundation to any outfit and this one features feminine lace trim at the neckline.",
         "fabric":"Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
     },
     {
         "id":16,
-        "name":"Cozy Critter Sweater",
-        "brand":"Ellos",
+        "name":"Cozy Critter Full Sleeve Sweater",
+        "brand":"Roaman's",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_Catherines/default/dw6700673e/images/hi-res/2608_10402_mc_0486.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Limited Time Price!",
         "price":3400,
         "rating":3,
         "desc":"Textured open front waffle cardigan with ribbed placket and ribbed knit long raglan sleeves.",
         "fabric":"100% acrylic twist knit",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Length: Mid-thigh
-        32inch, center back"
+        "details":"Machine wash cold, Imported",
+        "measurements":"Length: Mid-thigh 32inch, center back"
     },
     {
         "id":17,
-        "name":"Sheer Magic Tunic",
+        "name":"Sheer Magic Netted Tunic",
         "brand":"Jessica London",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_JessicaLondon/default/dwedd0d606/images/hi-res/2342_04254_mc_0559.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Perfect Price!",
@@ -237,9 +217,8 @@
         "rating":4,
         "desc":"Keep this soft, lightweight blouse in the front of your closet. With its soft georgette fabric and flowy shape, its an effortless way start to your day.",
         "fabric":"Soft and smooth as can be, this medium-weight opaque georgette fabric is designed to float away from the body. Sleek, supple and cool to the touch.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":18,
@@ -251,36 +230,33 @@
         "rating":5,
         "desc":"Our Suprema® layering tank is the perfect piece to add effortless beauty to any outfit.",
         "fabric":" Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash cold,
-        Imported",
-        "measurements":"Front Length: Regular 31, Petite 29",
+        "details":"Machine wash cold, Imported",
+        "measurements":"Front Length: Regular 31, Petite 29"
     },
     {
         "id":19,
-        "name":"Bell Sleeve Knit Tunic",
-        "brand":"Jessica London",
+        "name":"Printed Bell Sleeve Knit Tunic",
+        "brand":"Roaman's",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_ellos/default/dwddabc036/images/hi-res/2507_13522_mc_5651.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Limited Time Price!",
         "price":2850,
         "rating":5,
         "desc":"The subtle shadowy stripes and bold hue of this open-front cardigan make it an effortlessly beautiful top layer for a little extra warmth on breezy days.",
         "fabric":"Light and airy sweater knit with a unique textured stripe pattern.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
     },
     {
         "id":20,
         "name":"Fine Gauge Cardigan Topper",
-        "brand":"Ellos",
+        "brand":"Roaman's",
         "img":"https://cdn-fsly.yottaa.net/5f90511cd93140f2cca8dcaa/www.catherines.com/v~4b.324/dw/image/v2/BBKT_PRD/on/demandware.static/-/Sites-masterCatalog_JessicaLondon/default/dw32c29632/images/hi-res/2308_11334_mc_0701.jpg?sw=140&sh=140&sm=fit&yocs=j_m_",
         "tag":"Limited Time Price!",
         "price":5110,
         "rating":4,
         "desc":"The perfect start to your layered look! Our Suprema® cami offers an essential foundation to any outfit and this one features feminine lace trim at the neckline.",
         "fabric":"Our famous Suprema® is premium quality cotton loved for its stretch and durability. Soft to the touch, the fabric is designed to retain its shape and color wash after wash.",
-        "details":"Machine wash,
-        Imported",
-        "measurements":"Front Length: Regular 32, Petite 30",
-    },
+        "details":"Machine wash, Imported",
+        "measurements":"Front Length: Regular 32, Petite 30"
+    }
 ]

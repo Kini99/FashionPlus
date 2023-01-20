@@ -62,35 +62,17 @@ margin:auto;
     margin-top: 10%;
     background-color: white;
 }
-.nav form {
+.nav input{
     margin-top: 20px;
     height:30px;
     flex-grow: 1;
     margin:20px 5px 20px 40px;
     text-align: center;
 }
-#search{
-    display: flex;
-    justify-content: space-around;
-    margin:auto 50px;
-}
-#search input[type="search"]{
-    margin-right: 5px;
-    width:70%;
-  border: 1px solid #555;
-  display: block;
-  padding: 9px 40px 9px 10px;
-}
-#search input[type="submit"]{
-    text-indent: -999px;
-    background: transparent url("Images/Search Icon.png") no-repeat left;
-    width:20%;
-    border:none;
-}
-/* #search_icon{
+#search_icon{
     height:25px;
     margin:25px 40px 20px 0;
-} */
+}
 .nav div{
     display: flex;
     width:20%;
@@ -159,33 +141,21 @@ cursor: pointer;
 .functions>select>option:hover{
     text-decoration: underline;
 }
-
-.content .sidebar{
+.content_page{
+    margin-top: 20px;
+}
+.sidebar_profile{
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
-width:12%;
+width:8%;
 padding:5px 20px;
 }
-.sidebar h2{
+.sidebar_profile h2{
     color:#3a2a7c;
 }
-.sidebar> p:hover{
+.sidebar_profile> p:hover{
 color:#3a2a7c;
 text-decoration: underline;
 cursor: pointer;
-}
-.content{
-    display: flex;
-    justify-content: space-between;
-    margin-top:20px;
-    margin-bottom:20px;
-}
-
-/* product cards */
-#products{
-    display:grid;
-    grid-template-columns: repeat(5,1fr);
-    gap:20px;
-    width:85%;
 }
 
 /* footer */

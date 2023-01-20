@@ -15,8 +15,8 @@ function showSlides() {
 
 // Page locations
 
-function tops(){
-  window.location = "./tops.html"
+function topsSignedInPage(){
+  window.location = "./tops_signedIn.html"
 }
 
 function soon(){
@@ -69,6 +69,9 @@ data.forEach((element)=>{
   productCard.setAttribute("class","trendingProductCard");
   productCard.setAttribute("class", "item");
   productCard.style.boxShadow="rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px";
+  productCard.style.display="grid";
+  productCard.style.width="200px";
+  productCard.style.padding="20px";
 
 
   let img=document.createElement("img");
@@ -96,17 +99,24 @@ data.forEach((element)=>{
   let addBtn = document.createElement("button");
   addBtn.innerText = "Add to Cart";
   addBtn.style.height="30px";
-  addBtn.style.margin="0 0 10px 0";
+  addBtn.style.width="100px";
+  addBtn.style.margin="0 auto 10px auto";
+  addBtn.style.backgroundColor="#3a2a7c";
+  addBtn.style.color="white";
+  addBtn.style.border="none";
+  addBtn.style.borderRadius="10px";
 
-  addBtn.addEventListener("click", () => {
-    cartitems.push(element);
-    localStorage.setItem("cart", JSON.stringify(cartitems));
-})
+//   addBtn.addEventListener("click", () => {
+//     cartitems.push(element);
+//     localStorage.setItem("cart", JSON.stringify(cartitems));
+// })
 
   let wishlistimg = document.createElement("img");
   wishlistimg.setAttribute("src","./Images/blank heart.png")
   wishlistimg.style.height="30px";
   wishlistimg.style.margin="10px ";
+  wishlistimg.style.margin="auto";
+  wishlistimg.style.marginBottom="5px";
 
   wishlistimg.addEventListener("click", () => {
     // wishlistItems.push(element);
@@ -123,11 +133,17 @@ data.forEach((element)=>{
     })
 })
 
-productCard.append(img, title, brand, price, disc_price, addBtn,wishlistimg);
+productCard.append(img, title, brand, price, disc_price,wishlistimg, addBtn);
 trendingdisplayel.append(productCard);
 
 })
 }
+
+let signup_data = JSON.parse(localStorage.getItem("signupData"))
+if (signup_data === null) {
+    signup_data = [];
+}
+// document.getElementById("userName").innerText=signup_data.name;
 
 
 
