@@ -60,7 +60,7 @@ function display(data) {
     brand.style.textAlign = "center";
 
     let desc = document.createElement("p");
-    desc.innerText = "Description: " + element.desc;
+    desc.innerText = element.desc;
     desc.style.textAlign = "center";
 
     let fabric = document.createElement("p");
@@ -214,7 +214,8 @@ function display(data) {
       }
       document.getElementById("totalCost").innerText = "₹ " + totalCost + " /-";
 
-
+//       document.getElementById("savings").style.backgroundColor="rgb(41, 195, 41)";
+// document.getElementById("savings").style.color="white"
     })
 
   })

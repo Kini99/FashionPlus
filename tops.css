@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:1px;
+}
+
 .header>p {
     margin-top: 0;
     margin-bottom: 5px;
@@ -79,39 +87,24 @@
     background-color: white;
 }
 
-.nav form {
-    margin-top: 20px;
+.nav input {
     height: 30px;
     flex-grow: 1;
+    width:800px;
     margin: 20px 5px 20px 40px;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    letter-spacing: 1px;
+}
+#searchSub{
+    display:none;
+}
+#search_icon {
+    height: 25px;
+    margin: 22px 40px 20px 0;
 }
 
-#search {
-    display: flex;
-    justify-content: space-around;
-    margin: auto 50px;
-}
-
-#search input[type="search"] {
-    margin-right: 5px;
-    width: 70%;
-    border: 1px solid #555;
-    display: block;
-    padding: 9px 40px 9px 10px;
-}
-
-#search input[type="submit"] {
-    text-indent: -999px;
-    background: transparent url("Images/Search Icon.png") no-repeat left;
-    width: 20%;
-    border: none;
-}
-
-/* #search_icon{
-    height:25px;
-    margin:25px 40px 20px 0;
-} */
 .nav div {
     display: flex;
     width: 20%;
@@ -124,18 +117,23 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 2fr 1fr);
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    letter-spacing: 1px;
 }
 
 .nav div h3 {
     margin-top: 35px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #3a2a7c;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:1px;
 }
 
 #hamburger {
     display: none;
     margin-top: 2%;
 }
+
 
 /* categories */
 
@@ -146,7 +144,8 @@
     box-shadow: #3a2a7c 0px 10px 10px -12px;
     width: 98%;
     margin: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .categories p:hover {
@@ -261,15 +260,14 @@ h3 {
 }
 
 .footer3 {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+    text-align: center;
 }
 
 .footer3 p {
     border-right: 0.5px solid grey;
-    margin-top: 20px;
-    padding: 0 10px
+    margin-top: 15px;
+    padding: 0 10px;
+    font-size: 12px;
 }
 
 .footer3 p:hover {
