@@ -119,13 +119,6 @@ function display_tops(data) {
     wishlistimg.style.marginBottom = "5px";
 
     wishlistimg.addEventListener("click", () => {
-      // wishlistItems.push(element);
-      // localStorage.setItem("wishlist", JSON.stringify(wishlistItems));
-      // if(wishlistimg.src.value=="./Images/blank heart.png"){
-      //   wishlistimg.setAttribute("src","./Images/red heart.png")
-      // }else{
-      //   wishlistimg.setAttribute("src","./Images/blank heart.png")
-      // }
       wishlistimg.setAttribute("src", "./Images/red heart.png")
       wishlistimg.addEventListener("click", () => {
         wishlistimg.setAttribute("src", "./Images/blank heart.png")
@@ -151,12 +144,13 @@ function display_tops(data) {
 //search function
 
 let form = document.querySelector("#search");
+if(form){
 form.addEventListener("submit", (element) => {
   element.preventDefault();
   // console.log("working")
-  let search = form.search.value;
-  // console.log(search)
-  // console.log(topsData)
+  let search = form.searchWord.value;
+  console.log(search)
+  console.log(topsData)
   let searched = topsData.filter((el) => {
     // console.log(el)
     if (el.name.toLowerCase().includes(search.toLowerCase()) == true || el.brand.toLowerCase().includes(search.toLowerCase()) == true || el.desc.toLowerCase().includes(search.toLowerCase()) == true || el.fabric.toLowerCase().includes(search.toLowerCase()) == true) {
@@ -166,7 +160,7 @@ form.addEventListener("submit", (element) => {
     }
   })
   display_tops(searched)
-})
+})}
 
 // filter function
 
@@ -274,7 +268,11 @@ if (signup_data === null) {
   signup_data = [];
 }
 
+if(signup_data[0].name){
 document.getElementById("userName").innerText = signup_data[0].name.toUpperCase();
+}else{
+  document.getElementById("userName").innerText = signup_data[0].name.toUpperCase();
+}
 
 function soon() {
   window.location = "./coming_soon.html"

@@ -1,3 +1,11 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&family=Raleway&display=swap');
+
+body{
+    font-family: 'Raleway', sans-serif;
+    letter-spacing:1px;
+}
+
 .header>p {
     margin-top: 0;
     margin-bottom: 5px;=
@@ -103,11 +111,13 @@
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: repeat(2, 2fr 1fr);
+    font-family: 'Raleway', sans-serif;
+    font-weight:600;
+    letter-spacing: 1px;
 }
 
 .nav div h3 {
     margin-top: 35px;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     color: #3a2a7c;
 }
 
@@ -125,7 +135,8 @@
     box-shadow: #3a2a7c 0px 10px 10px -12px;
     width: 98%;
     margin: auto;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 15px;
 }
 
 .categories p:hover {
@@ -183,6 +194,7 @@ table {
     border-collapse: collapse;
     text-align: center;
     margin-bottom: 20px;
+    font-size: 13px;
 }
 
 thead {
@@ -208,7 +220,7 @@ td {
 }
 
 .payment_options {
-    width: 50%;
+    width:55%;
     margin: auto;
     display: flex;
     margin-bottom: 40px;
@@ -312,22 +324,20 @@ h3 {
 }
 
 .footer3 {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
+    text-align: center;
 }
 
 .footer3 p {
     border-right: 0.5px solid grey;
-    margin-top: 20px;
-    padding: 0 10px
+    margin-top: 15px;
+    padding: 0 10px;
+    font-size: 12px;
 }
 
 .footer3 p:hover {
     cursor: pointer;
     text-decoration: underline;
 }
-
 @media all and (min-width: 768px) and (max-width: 1024px) {
     .categories {
         display: none;

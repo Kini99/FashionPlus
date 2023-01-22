@@ -41,19 +41,19 @@ function tops() {
 
 // username
 
-// let signUp_data = JSON.parse(localStorage.getItem("signupData"))
-// if (signUp_data === null) {
-//   signUp_data = [];
-// }
-// // console.log(signUp_data[0].name)
+let signUp_data = JSON.parse(localStorage.getItem("signupData"))
+if (signUp_data === null) {
+  signUp_data = [];
+}
+// console.log(signUp_data[0].name)
 
-// if(signUp_data[0].name){
-//   console.log(signUp_data[0].name.toUpperCase())
-// document.getElementById("userName").innerText = signUp_data[0].name.toUpperCase();
-// }else{
-//   console.log("Working")
-// }
-// // document.getElementById("username").innerText=signup_data[0].name.toUpperCase();
+if(signUp_data[0].name){
+  console.log(signUp_data[0].name.toUpperCase())
+document.getElementById("userName").innerText = signUp_data[0].name.toUpperCase();
+}else{
+  console.log("Working")
+}
+// document.getElementById("username").innerText=signup_data[0].name.toUpperCase();
 
 // Trending data fetch
 let trending_data = []
@@ -169,10 +169,10 @@ function display_trending(data) {
   })
 }
 
-// let signup_data = JSON.parse(localStorage.getItem("signupData"))
-// if (signup_data === null) {
-//   signup_data = [];
-// }
+let signup_data = JSON.parse(localStorage.getItem("signupData"))
+if (signup_data === null) {
+  signup_data = [];
+}
 // document.getElementById("userName").innerText=signup_data.name;
 
 
